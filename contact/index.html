@@ -6,23 +6,15 @@
     <link type="text/css" rel="stylesheet" href="/media/css/style.css" >
     <link type="text/css" rel="stylesheet" href="/media/css/layout.css" >
     <link type="text/css" rel="stylesheet" href="/media/css/lightbox.css" media="screen" />
-        
-    <script type="text/javascript" src="/media/js/libs/cufon-yui.js"></script>
-    <script type="text/javascript" src="/media/js/libs/DIN_400.font.js"></script>
-    <script type="text/javascript" src="/media/js/libs/cufon-replace.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script type="text/javascript" src="/media/js/prototype.js"></script>
-    <script type="text/javascript" src="/media/js/scriptaculous.js?load=effects,builder"></script>
-    <script type="text/javascript" src="/media/js/lightbox.js"></script>
 
     <script type="text/javascript">
-    $(document).ready(function() {
-        $("#contact_us").bind("submit", function(){
-           $("div.message").addClass("pretty").show("slow"); 
-           return true;
+    $(document).ready(function(){
+        $("#contact_us").bind("submit", function() {
+            $("div.message").show("slow"); 
+            return true;
         });
     });
-    
     </script>
     <meta name="description" content="">
     <meta name="author" content="Abraneo Technologies">
@@ -94,13 +86,13 @@
       <h2>Contact Form</h2>
       <p>Your questions are important to us. You can fill out the form below or email us at info@abraneo.com and we’ll get back to you as soon as possible.</p>
       <div class="message" style="display:none">
-        <b>Thanks for sending your info.  We will be in touch shortly.</b>    
+        <h2><font color="green">Thanks for sending your info.  We will be in touch shortly.</font></h2>
       </div>
-      
+      <br/>
       <iframe name="hiddenIframe" style="display:none"></iframe>
       <form id="contact_us" enctype="multipart/form-data" method="post" novalidate action="http://abraneo.wufoo.com/forms/p7x3a1/#public" target="hiddenIframe">
         <label><span><b>Your Name(required)</b></span>
-        <div><input id="Field4" name="Field4" type="text" class="field text medium" size="35" value="Enter Your Name Here" maxlength="255" tabindex="1" onkeyup="" /></div>
+        <div><input id="Field4" name="Field4" type="text" class="field text medium" size="35" value="" maxlength="255" tabindex="1" onkeyup="" /></div>
         </label>
 
         <label><span><b>Your Email(required)</b></span>
@@ -118,7 +110,6 @@
         <div>
         <input type="hidden" id="idstamp" name="idstamp" value="peH8KScyH1tjTcdsWVCJ/UEgrCSm9faoKQuVfbpiRIQ=" />
         <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Submit" /></div>
-        
       </form> 
       <div class="clear"></div>
     </div>
@@ -127,7 +118,7 @@
           <div class="col-1">
             <h2>Contact Info</h2>
              <p class="extra"><b>Abraneo Technologies</b><br>
-              169 North Main Street<br />
+              PO Box 513<br />
               Yardley, PA 19067 USA</p>
               <p>Telephone: +1 215 867 4505<br />
               E-mail: <b><a href="#">info@abraneo.com</a></b></p>
@@ -139,7 +130,7 @@
   </div>
   <!-- footer -->
   <div id="footer">
-        <div class="wrapper"> <strong> <b>Contact information</b> Phone: (215) 867-4505<br> Fax: (877) 530-0068 <br />
+        <div class="wrapper"> <strong> <b>Contact information</b> Phone: (215) 867-4505 <br />
       Location: Yardley, PA 19067 </strong> <em> <i>E-mail</i> <a href="mailto:info@abraneo.com">info@abraneo.com</a> </em>
       <div class="bot-box"> <small>Meet us online</small>
         <ul>
@@ -182,15 +173,10 @@
             </a>
         </li>    </ul>
 
-      <p><span><img align='left'src="/media/images/logo/logo_only_small_20x21.png"></img> Abraneo Technologies</span>&copy; 2010-2011  <!-- | <a href="privacy">Privacy policy</a><span></span><img align='right'src="/media/images/palo-reseller100x48.jpg"></img> --></p>
+      <p><span><img align='left'src="/media/images/logo/logo_only_small_20x21.png"></img> Abraneo Technologies</span>&copy; 2010-2011 </p>
     </div>
       </div>
 </div>
-                          
-          
-                    
-                              
-          <script type="text/javascript"> Cufon.now(); </script>
 
       </body>
 <script type="text/javascript">
